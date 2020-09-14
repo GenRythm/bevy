@@ -45,6 +45,7 @@ x11 = ["bevy_winit/x11"]
 members = [
     "crates/*",
     "crates/bevy_ecs/hecs",
+    "demo/*",
 ]
 exclude = ["benches"]
 
@@ -247,3 +248,7 @@ path = "examples/window/multiple_windows.rs"
 [[example]]
 name = "window_settings"
 path = "examples/window/window_settings.rs"
+
+[[bin]]
+name = "stategy"
+path = "demo/stategy/src/main.rs"
